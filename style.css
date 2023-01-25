@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+   
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft{
+    width: 50%;
+    padding: 12px 0;
+}
+
+.topright{
+    width: 50%;
+    padding: 12px 0;
+
+
+}
+
+.section-2{
+   padding: 73px;
+}
+.section-2 h1{
+    font-size: 2.5rem;
+}
+
+.section-2 p{
+    padding: 0 8vw;
+}
+
+.dumbellimg{
+    width: 150px;
+    padding:0 250px;
+}
+
+.box{
+    padding:8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(49 67 141);
+    text-align: center;
+    border-radius: 12px;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding:10px 0;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.highlighted{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section-3 table th{
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+
+.section-3 table td{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.section-3 h1{
+    font-size: 2.5rem;
+}
+
+.section-3{
+    padding: 73px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center ;
+}
